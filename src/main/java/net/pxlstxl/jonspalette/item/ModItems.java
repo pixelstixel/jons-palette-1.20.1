@@ -12,12 +12,12 @@ import net.pxlstxl.jonspalette.JonsPalette;
 
 public class ModItems {
     public static final Item PEBBLE = registerItem("pebble", new Item(new FabricItemSettings()));
-    public static final Item FLAT_PEBBLE = registerItem("flat_pebble", new Item(new FabricItemSettings()));
+
 
     private static void addItemsToIngredientTabItemGroup(FabricItemGroupEntries entries)
     {
         entries.add(PEBBLE);
-        entries.add(FLAT_PEBBLE);
+
     }
 
     private static Item registerItem(String name, Item item)

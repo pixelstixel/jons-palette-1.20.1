@@ -1,6 +1,5 @@
 {
   "item.jonspalette.pebble":"Pebble",
-  "item.jonspalette.flat_pebble":"Flat Pebble",
 
-  "itemgroup.pebble": "Pebbles"
+  "itemgroup.jonspalette": "Jon's Palette"
 }
