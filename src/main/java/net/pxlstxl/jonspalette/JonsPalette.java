@@ -2,6 +2,8 @@ package net.pxlstxl.jonspalette;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.pxlstxl.jonspalette.item.ModItemGroups;
+import net.pxlstxl.jonspalette.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -12,7 +14,7 @@ public class JonsPalette implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
-		LOGGER.info("Hello Fabric world!");
+		ModItemGroups.registerItemGroups();
+		ModItems.registerModItems();
 	}
 }
