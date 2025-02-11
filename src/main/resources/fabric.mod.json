@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "jonspalette",
+	"version": "${version}",
+	"name": "Jon's Palette",
+	"description": "A small mod that adds blocks and items I would like.",
+	"authors": [
+		"pixelstixel"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/jonspalette/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.pxlstxl.jonspalette.JonsPalette"
+		],
+		"client": [
+			"net.pxlstxl.jonspalette.JonsPaletteClient"
+		],
+		"fabric-datagen": [
+			"net.pxlstxl.jonspalette.JonsPaletteDataGenerator"
+		]
+	},
+	"mixins": [
+		"jonspalette.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
