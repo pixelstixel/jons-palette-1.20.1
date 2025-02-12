@@ -10,7 +10,8 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.pxlstxl.jonspalette.JonsPalette;
 
-public class ModItems {
+public class ModItems
+{
     public static final Item PEBBLE = registerItem("pebble", new Item(new FabricItemSettings()));
 
 

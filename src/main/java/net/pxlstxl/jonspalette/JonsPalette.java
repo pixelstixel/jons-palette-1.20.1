@@ -2,6 +2,7 @@ package net.pxlstxl.jonspalette;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.pxlstxl.jonspalette.block.ModBlocks;
 import net.pxlstxl.jonspalette.item.ModItemGroups;
 import net.pxlstxl.jonspalette.item.ModItems;
 import org.slf4j.Logger;
@@ -15,6 +16,8 @@ public class JonsPalette implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItemGroups.registerItemGroups();
+
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }

@@ -1,5 +1,8 @@
 {
-  "item.jonspalette.pebble":"Pebble",
+  "item.jonspalette.pebble": "Pebble",
+  "block.jonspalette.pebblestone": "Pebblestone",
+
 
   "itemgroup.jonspalette": "Jon's Palette"
+
 }
