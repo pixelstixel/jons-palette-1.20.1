@@ -11,14 +11,15 @@ import net.pxlstxl.jonspalette.JonsPalette;
 import net.pxlstxl.jonspalette.block.ModBlocks;
 
 public class ModItemGroups {
-    public static final ItemGroup PEBBLE_GROUP = Registry.register(Registries.ITEM_GROUP,
+    public static final ItemGroup BLOCK_GROUP = Registry.register(Registries.ITEM_GROUP,
             new Identifier(JonsPalette.MOD_ID, "pebble"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.jonspalette"))
-                    .icon(() -> new ItemStack(ModItems.PEBBLE)).entries((displayContext, entries) ->
+                    .icon(() -> new ItemStack(ModBlocks.BOARD_PLANKS)).entries((displayContext, entries) ->
                     {
                         entries.add(ModItems.PEBBLE);
                         entries.add(ModBlocks.PEBBLESTONE);
                         entries.add(ModBlocks.SHULKER_BALL);
+                        entries.add(ModBlocks.BOARD_PLANKS);
 
                     }).build());
 

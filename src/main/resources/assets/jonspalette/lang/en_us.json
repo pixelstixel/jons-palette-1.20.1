@@ -1,7 +1,11 @@
 {
   "item.jonspalette.pebble": "Pebble",
   "block.jonspalette.pebblestone": "Pebblestone",
+
   "block.jonspalette.shulker_ball": "Shulker Ball",
+
+  "block.jonspalette.board_planks": "Board Planks",
+  "block.jonspalette.board_planks_column": "Board Planks Column",
 
 
   "itemgroup.jonspalette": "Jon's Palette"

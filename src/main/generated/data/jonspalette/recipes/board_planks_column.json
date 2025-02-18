@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "B": {
+      "item": "jonspalette:board_planks"
+    }
+  },
+  "pattern": [
+    "B  ",
+    "B  ",
+    "   "
+  ],
+  "result": {
+    "count": 2,
+    "item": "jonspalette:board_planks_column"
+  },
+  "show_notification": true
+}

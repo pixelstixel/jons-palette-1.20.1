@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column_horizontal",
+  "textures": {
+    "end": "jonspalette:block/board_planks_column_top",
+    "side": "jonspalette:block/board_planks_column"
+  }
+}
