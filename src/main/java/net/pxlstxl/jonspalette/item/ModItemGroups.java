@@ -18,7 +18,7 @@ public class ModItemGroups {
                     {
                         entries.add(ModItems.PEBBLE);
                         entries.add(ModBlocks.PEBBLESTONE);
-
+                        entries.add(ModBlocks.SHULKER_BALL);
 
                     }).build());
 

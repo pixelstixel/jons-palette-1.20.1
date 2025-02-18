@@ -16,6 +16,9 @@ public class ModBlocks
     public static final Block PEBBLESTONE = registerBlock("pebblestone",
             new Block(FabricBlockSettings.copyOf(Blocks.COBBLESTONE)));
 
+    public static final Block SHULKER_BALL = registerBlock("shulker_ball",
+            new Block(FabricBlockSettings.copyOf(Blocks.SHULKER_BOX)));
+
     private static Block registerBlock(String name, Block block)
     {
         registerBlockItem(name, block);
