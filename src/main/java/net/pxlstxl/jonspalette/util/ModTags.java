@@ -24,4 +24,7 @@ public class ModTags
             return TagKey.of(RegistryKeys.ITEM, new Identifier(JonsPalette.MOD_ID, name));
         }
     }
+
+    public static final TagKey<Item> SHULKER_BALLS = TagKey.of(RegistryKeys.ITEM, Identifier.of("jonspalette", "shulker_balls"));
+
 }

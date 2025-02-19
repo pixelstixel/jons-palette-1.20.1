@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "jonspalette:block/gray_shulker_ball"
+  }
+}

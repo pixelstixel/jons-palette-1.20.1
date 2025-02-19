@@ -16,7 +16,22 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.PEBBLESTONE);
 
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.SHULKER_BALL);
-
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.WHITE_SHULKER_BALL);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.ORANGE_SHULKER_BALL);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.MAGENTA_SHULKER_BALL);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.LIGHT_BLUE_SHULKER_BALL);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.YELLOW_SHULKER_BALL);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.LIME_SHULKER_BALL);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.PINK_SHULKER_BALL);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.GRAY_SHULKER_BALL);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.LIGHT_GRAY_SHULKER_BALL);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CYAN_SHULKER_BALL);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.PURPLE_SHULKER_BALL);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BLUE_SHULKER_BALL);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BROWN_SHULKER_BALL);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.GREEN_SHULKER_BALL);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RED_SHULKER_BALL);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BLACK_SHULKER_BALL);
 
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BOARD_PLANKS);
         blockStateModelGenerator.registerLog(ModBlocks.BOARD_PLANKS_COLUMN).log(ModBlocks.BOARD_PLANKS_COLUMN);

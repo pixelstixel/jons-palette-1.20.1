@@ -2,6 +2,22 @@
   "replace": false,
   "values": [
     "jonspalette:pebblestone",
-    "jonspalette:shulker_ball"
+    "jonspalette:shulker_ball",
+    "jonspalette:white_shulker_ball",
+    "jonspalette:orange_shulker_ball",
+    "jonspalette:magenta_shulker_ball",
+    "jonspalette:light_blue_shulker_ball",
+    "jonspalette:yellow_shulker_ball",
+    "jonspalette:lime_shulker_ball",
+    "jonspalette:pink_shulker_ball",
+    "jonspalette:gray_shulker_ball",
+    "jonspalette:light_gray_shulker_ball",
+    "jonspalette:cyan_shulker_ball",
+    "jonspalette:purple_shulker_ball",
+    "jonspalette:blue_shulker_ball",
+    "jonspalette:brown_shulker_ball",
+    "jonspalette:green_shulker_ball",
+    "jonspalette:red_shulker_ball",
+    "jonspalette:black_shulker_ball"
   ]
 }
