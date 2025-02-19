@@ -57,6 +57,17 @@ public class ModBlocks
     public static final Block BOARD_PLANKS_COLUMN = registerBlock("board_planks_column",
             new PillarBlock(FabricBlockSettings.copyOf(Blocks.BARREL)));
 
+    public static final Block WORKSTONE = registerBlock("workstone",
+            new Block(FabricBlockSettings.copyOf(Blocks.DEEPSLATE)));
+    public static final Block POLISHED_WORKSTONE = registerBlock("polished_workstone",
+            new Block(FabricBlockSettings.copyOf(Blocks.POLISHED_DEEPSLATE)));
+    public static final Block CHISELED_WORKSTONE = registerBlock("chiseled_workstone.json",
+            new Block(FabricBlockSettings.copyOf(Blocks.CHISELED_DEEPSLATE)));
+
+
+
+
+
 
     private static Block registerBlock(String name, Block block)
     {

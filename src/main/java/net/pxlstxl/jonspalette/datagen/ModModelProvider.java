@@ -1,8 +1,11 @@
 package net.pxlstxl.jonspalette.datagen;
 
+import dev.architectury.platform.Mod;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.minecraft.data.client.*;
+import net.minecraft.state.property.Properties;
+import net.minecraft.util.math.Direction;
 import net.pxlstxl.jonspalette.block.ModBlocks;
 import net.pxlstxl.jonspalette.item.ModItems;
 
@@ -35,6 +38,10 @@ public class ModModelProvider extends FabricModelProvider {
 
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BOARD_PLANKS);
         blockStateModelGenerator.registerLog(ModBlocks.BOARD_PLANKS_COLUMN).log(ModBlocks.BOARD_PLANKS_COLUMN);
+
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.WORKSTONE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.POLISHED_WORKSTONE);
+
     }
 
     @Override

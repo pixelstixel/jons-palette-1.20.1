@@ -34,6 +34,9 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.BOARD_PLANKS);
         addDrop(ModBlocks.BOARD_PLANKS_COLUMN);
 
+        addDrop(ModBlocks.WORKSTONE);
+        addDrop(ModBlocks.POLISHED_WORKSTONE);
+        addDrop(ModBlocks.CHISELED_WORKSTONE);
 
     }
 }

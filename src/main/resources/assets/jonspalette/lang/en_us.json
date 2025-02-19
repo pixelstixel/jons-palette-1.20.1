@@ -23,6 +23,13 @@
   "block.jonspalette.board_planks": "Board Planks",
   "block.jonspalette.board_planks_column": "Board Planks Column",
 
+  "block.jonspalette.workstone": "Workstone",
+  "block.jonspalette.polished_workstone": "Polished Workstone",
+  "block.jonspalette.chiseled_workstone": "Chiseled Workstone",
+
+
+
+
 
   "itemgroup.jonspalette": "Jon's Palette"
 

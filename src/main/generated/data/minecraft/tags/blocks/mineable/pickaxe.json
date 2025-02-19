@@ -18,6 +18,9 @@
     "jonspalette:brown_shulker_ball",
     "jonspalette:green_shulker_ball",
     "jonspalette:red_shulker_ball",
-    "jonspalette:black_shulker_ball"
+    "jonspalette:black_shulker_ball",
+    "jonspalette:workstone",
+    "jonspalette:polished_workstone",
+    "jonspalette:chiseled_workstone.json"
   ]
 }

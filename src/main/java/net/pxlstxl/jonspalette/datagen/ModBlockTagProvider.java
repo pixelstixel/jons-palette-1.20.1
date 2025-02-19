@@ -34,7 +34,12 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.BROWN_SHULKER_BALL)
                 .add(ModBlocks.GREEN_SHULKER_BALL)
                 .add(ModBlocks.RED_SHULKER_BALL)
-                .add(ModBlocks.BLACK_SHULKER_BALL);
+                .add(ModBlocks.BLACK_SHULKER_BALL)
+
+                .add(ModBlocks.WORKSTONE)
+                .add(ModBlocks.POLISHED_WORKSTONE)
+                .add(ModBlocks.CHISELED_WORKSTONE);
+
 
         getOrCreateTagBuilder(BlockTags.AXE_MINEABLE)
                 .add(ModBlocks.BOARD_PLANKS)

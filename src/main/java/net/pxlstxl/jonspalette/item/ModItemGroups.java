@@ -40,6 +40,10 @@ public class ModItemGroups {
                         entries.add(ModBlocks.BOARD_PLANKS);
                         entries.add(ModBlocks.BOARD_PLANKS_COLUMN);
 
+                        entries.add(ModBlocks.WORKSTONE);
+                        entries.add(ModBlocks.POLISHED_WORKSTONE);
+                        entries.add(ModBlocks.CHISELED_WORKSTONE);
+
 
                     }).build());
 
