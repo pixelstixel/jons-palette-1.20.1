@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "jonspalette:block/board_planks"
+    "all": "jonspalette:block/patterned_board_planks"
   }
 }

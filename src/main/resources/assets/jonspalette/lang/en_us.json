@@ -20,14 +20,17 @@
   "block.jonspalette.red_shulker_ball": "Red Shulker Ball",
   "block.jonspalette.black_shulker_ball": "Black Shulker Ball",
 
-  "block.jonspalette.board_planks": "Board Planks",
-  "block.jonspalette.board_planks_column": "Board Planks Column",
+  "block.jonspalette.stave_planks": "Stave Planks",
+  "block.jonspalette.stave_planks_column": "Stave Planks Column",
 
   "block.jonspalette.workstone": "Workstone",
   "block.jonspalette.polished_workstone": "Polished Workstone",
   "block.jonspalette.chiseled_workstone": "Chiseled Workstone",
 
-
+  "block.jonspalette.board_planks": "Board Planks",
+  "block.jonspalette.polished_board_planks": "Polished Board Planks",
+  "block.jonspalette.chiseled_board_planks": "Chiseled Board Planks",
+  "block.jonspalette.patterned_board_planks": "Patterned Board Planks",
 
 
 

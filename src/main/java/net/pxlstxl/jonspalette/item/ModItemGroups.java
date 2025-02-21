@@ -37,12 +37,17 @@ public class ModItemGroups {
                         entries.add(ModBlocks.RED_SHULKER_BALL);
                         entries.add(ModBlocks.BLACK_SHULKER_BALL);
 
-                        entries.add(ModBlocks.BOARD_PLANKS);
-                        entries.add(ModBlocks.BOARD_PLANKS_COLUMN);
+                        entries.add(ModBlocks.STAVE_PLANKS);
+                        entries.add(ModBlocks.STAVE_PLANKS_COLUMN);
 
                         entries.add(ModBlocks.WORKSTONE);
                         entries.add(ModBlocks.POLISHED_WORKSTONE);
                         entries.add(ModBlocks.CHISELED_WORKSTONE);
+
+                        entries.add(ModBlocks.BOARD_PLANKS);
+                        entries.add(ModBlocks.POLISHED_BOARD_PLANKS);
+                        entries.add(ModBlocks.CHISELED_BOARD_PLANKS);
+                        entries.add(ModBlocks.PATTERNED_BOARD_PLANKS);
 
 
                     }).build());

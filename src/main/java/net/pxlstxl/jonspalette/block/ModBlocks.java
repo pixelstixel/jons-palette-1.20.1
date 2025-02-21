@@ -52,17 +52,26 @@ public class ModBlocks
     public static final Block BLACK_SHULKER_BALL = registerBlock("black_shulker_ball",
             new Block(FabricBlockSettings.copyOf(Blocks.WHITE_WOOL)));
 
-    public static final Block BOARD_PLANKS = registerBlock("board_planks",
+    public static final Block STAVE_PLANKS = registerBlock("stave_planks",
             new Block(FabricBlockSettings.copyOf(Blocks.BARREL)));
-    public static final Block BOARD_PLANKS_COLUMN = registerBlock("board_planks_column",
+    public static final Block STAVE_PLANKS_COLUMN = registerBlock("stave_planks_column",
             new PillarBlock(FabricBlockSettings.copyOf(Blocks.BARREL)));
 
     public static final Block WORKSTONE = registerBlock("workstone",
             new Block(FabricBlockSettings.copyOf(Blocks.DEEPSLATE)));
     public static final Block POLISHED_WORKSTONE = registerBlock("polished_workstone",
             new Block(FabricBlockSettings.copyOf(Blocks.POLISHED_DEEPSLATE)));
-    public static final Block CHISELED_WORKSTONE = registerBlock("chiseled_workstone.json",
+    public static final Block CHISELED_WORKSTONE = registerBlock("chiseled_workstone",
             new Block(FabricBlockSettings.copyOf(Blocks.CHISELED_DEEPSLATE)));
+
+    public static final Block BOARD_PLANKS = registerBlock("board_planks",
+            new Block(FabricBlockSettings.copyOf(Blocks.BIRCH_PLANKS)));
+    public static final Block POLISHED_BOARD_PLANKS = registerBlock("polished_board_planks",
+            new Block(FabricBlockSettings.copyOf(Blocks.BIRCH_PLANKS)));
+    public static final Block CHISELED_BOARD_PLANKS = registerBlock("chiseled_board_planks",
+            new Block(FabricBlockSettings.copyOf(Blocks.BIRCH_PLANKS)));
+    public static final Block PATTERNED_BOARD_PLANKS = registerBlock("patterned_board_planks",
+            new Block(FabricBlockSettings.copyOf(Blocks.BIRCH_PLANKS)));
 
 
 

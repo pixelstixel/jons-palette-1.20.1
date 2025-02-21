@@ -40,10 +40,14 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.POLISHED_WORKSTONE)
                 .add(ModBlocks.CHISELED_WORKSTONE);
 
-
         getOrCreateTagBuilder(BlockTags.AXE_MINEABLE)
+                .add(ModBlocks.STAVE_PLANKS)
+                .add(ModBlocks.STAVE_PLANKS_COLUMN)
+
                 .add(ModBlocks.BOARD_PLANKS)
-                .add(ModBlocks.BOARD_PLANKS_COLUMN);
+                .add(ModBlocks.POLISHED_BOARD_PLANKS)
+                .add(ModBlocks.CHISELED_BOARD_PLANKS)
+                .add(ModBlocks.PATTERNED_BOARD_PLANKS);
 
     }
 }

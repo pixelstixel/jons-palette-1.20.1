@@ -15,7 +15,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:board_planks_column"
+        "recipe": "minecraft:stave_planks_column"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -28,7 +28,7 @@
   ],
   "rewards": {
     "recipes": [
-      "minecraft:board_planks_column"
+      "minecraft:stave_planks_column"
     ]
   },
   "sends_telemetry_event": false

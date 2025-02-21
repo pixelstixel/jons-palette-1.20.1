@@ -1,7 +1,11 @@
 {
   "replace": false,
   "values": [
+    "jonspalette:stave_planks",
+    "jonspalette:stave_planks_column",
     "jonspalette:board_planks",
-    "jonspalette:board_planks_column"
+    "jonspalette:polished_board_planks",
+    "jonspalette:chiseled_board_planks",
+    "jonspalette:patterned_board_planks"
   ]
 }

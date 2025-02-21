@@ -13,7 +13,6 @@ import net.pxlstxl.jonspalette.block.ModBlocks;
 import net.pxlstxl.jonspalette.item.ModItems;
 import net.pxlstxl.jonspalette.util.ModTags;
 
-
 import java.util.function.Consumer;
 
 public class ModRecipeProvider extends FabricRecipeProvider {
@@ -145,18 +144,18 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
 
         // Board Planks Crafting
-        ShapelessRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.BOARD_PLANKS, 4)
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.STAVE_PLANKS, 4)
                 .input(Items.BARREL)
                 .criterion(hasItem(Items.BARREL), conditionsFromItem(Items.BARREL))
-                .offerTo(consumer, new Identifier(getRecipeName(ModBlocks.BOARD_PLANKS)));
+                .offerTo(consumer, new Identifier(getRecipeName(ModBlocks.STAVE_PLANKS)));
 
         // Board Planks Column from Board Planks
-        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.BOARD_PLANKS_COLUMN, 2)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.STAVE_PLANKS_COLUMN, 2)
                 .pattern("B  ")
                 .pattern("B  ")
                 .input('B', ModBlocks.BOARD_PLANKS)
                 .criterion(hasItem(ModBlocks.BOARD_PLANKS), conditionsFromItem(ModBlocks.BOARD_PLANKS))
-                .offerTo(consumer, new Identifier(getRecipeName(ModBlocks.BOARD_PLANKS_COLUMN)));
+                .offerTo(consumer, new Identifier(getRecipeName(ModBlocks.STAVE_PLANKS_COLUMN)));
 
     }
 }

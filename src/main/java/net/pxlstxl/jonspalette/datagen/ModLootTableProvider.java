@@ -31,12 +31,17 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.RED_SHULKER_BALL);
         addDrop(ModBlocks.BLACK_SHULKER_BALL);
 
-        addDrop(ModBlocks.BOARD_PLANKS);
-        addDrop(ModBlocks.BOARD_PLANKS_COLUMN);
+        addDrop(ModBlocks.STAVE_PLANKS);
+        addDrop(ModBlocks.STAVE_PLANKS_COLUMN);
 
         addDrop(ModBlocks.WORKSTONE);
         addDrop(ModBlocks.POLISHED_WORKSTONE);
         addDrop(ModBlocks.CHISELED_WORKSTONE);
+
+        addDrop(ModBlocks.BOARD_PLANKS);
+        addDrop(ModBlocks.POLISHED_BOARD_PLANKS);
+        addDrop(ModBlocks.CHISELED_BOARD_PLANKS);
+        addDrop(ModBlocks.PATTERNED_BOARD_PLANKS);
 
     }
 }
